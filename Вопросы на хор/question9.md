@@ -34,7 +34,14 @@ BitRef operator[](size_t i) {
 
 ### <a id="title3">Формально определите rvalue и lvalue. Расскажите об rvalue-ссылках.</a>
 
+Елси коротко то:
+- lvalue - это обычные пермененные которые хранятся в памяти (но это не тож самое что и тип, это синтаксическое обращение к нему (то есть зависит от синтаксической записи) )
+- rvalue - это временные переменные которые
+- lvalue ref (T&) - принимает только lvalue, но запись const T& принимает как lvalue и временные перем.
+- rvalue ref (T&&) - принимает только временные переменные.
+
 [__ОПР:__ _rvalue and lvalue_](https://ru.cppreference.com/w/cpp/language/value_category)
+
 [об rvalue-ссылках](https://gitlab.com/yaishenka/cpp_course/-/blob/main/lectures/lecture_16.md#9-%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-stdmove)
 
 ---
