@@ -1,1 +1,1 @@
-
+[ответ](https://gitlab.com/yaishenka/cpp_course/-/blob/main/lectures/lecture_18.md#4-%D0%B7%D0%B0%D1%85%D0%B2%D0%B0%D1%82-%D0%BF%D0%BE%D0%BB%D0%B5%D0%B9-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0-%D0%B8-this)
